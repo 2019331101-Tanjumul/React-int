@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        input{ 
+            width:100%;
+            padding:12px 20px;
+            margin: 8px 0; 
+            box-sizing: border-box; 
+
+
+        }
+
+        Select {
+
+width: 250px; 
+
+padding: 5px;
+
+border: 1px solid #ccc;
+
+appearance: none;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div><h1> <form action="index.php" method="post"> 
+       <label for = "username"> Username:</label>
+        <input type = "text" id = "username" minlength="6" maxlength="15"
+       placeholder="TechNext" required><br> 
+       <label for = "password" >Password  :</label>
+       <input type = "password" id = "password" minlength="6" required> <br>
+       <label for = "email">Email Add :</label> 
+       <input type = "email" id = "email" required ></input> <br>
+       <label for = "phone">Phone Num: </label>
+       <input for = "phone number" placeholder = " 018xxxxxxxxx" minlength="11"><br> 
+       <label for = "bday">Birthdate</label>
+       <input type = "date" id = "birthdate"><br> 
+       
+       <label for = "quantity"> Quantity :</label>
+       <input type = "number" id ="quantity" min = "0" max = "99"></input><br> 
+      <label for = "MR."> MR.</label>
+      <input type = "radio" id="Mr." value="Mr." name="title"> 
+      <label for = "Ms.">Ms.</label>
+      <input type = "radio" id="Ms." value="Ms." name ="title"><br> <!-- the important part is there-->
+
+     <br> <label for = "payment"> payment</label>
+<select id = "payment"> 
+    <option value= "giftcard">
+      Giftcard
+    </option>
+    <option> Mastercard</option>
+    <option>Visacard</option>
+</select>
+<br>
+   <label for = "subscribe">Subscribe</label>
+   <input type = "checkbox" id = "subscribe"><br>
+       
+   <label for = "comment">Comment:</label>
+   <textarea id=" comment" rows="15" cols = "55" placeholder="write here"></textarea>
+   <br><br> 
+   <label for = "file"> file:</label>
+   <input type = "file" id = "file" accept = "image/jpeg , image/jpg"
+   
+   
+   <input type = "reset">  
+        <input type = "submit">
+
+
+        
+
+    </form>
+</h1></div>
+</body>
+
+</html>
