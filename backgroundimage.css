@@ -1,0 +1,24 @@
+h1{ 
+     color: rgb(153, 245, 16);
+}
+
+#dog-txt{ 
+    text-align:center;
+    color:rgb(255, 248, 42); 
+    border: 3px solid rgb(251, 27, 27);
+    border-bottom: 20px;
+    padding-left: 2px;
+    margin-right: 10px;
+
+
+
+
+}
+body{ 
+
+    background-image: url(https://www.hindustantimes.com/ht-img/img/2023/10/26/1600x900/small_dog_breeds_1698323425017_1698323425643.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,30 @@
+body{ 
+    margin:0px; 
+
+}
+
+.box{ 
+  
+    border: 2px solid;
+    font-size: 2em;
+    height: 250px; 
+    width: 250px;
+  margin:auto; 
+    
+}
+
+#box1{ 
+    background-color: red;
+    
+    margin-left:auto;
+}   
+
+#box2{ 
+    background-color: blue ;
+  /*margin-top:20px; 
+    */ 
+
+
+
+}
+
