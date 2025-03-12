@@ -1,0 +1,23 @@
+
+        body{ 
+            background-color: black;
+        }
+        h1{ 
+              color : White ; 
+        }
+
+     .even{ 
+        background-color: whitesmoke;
+        color : red; 
+     }
+            
+
+.odd{ 
+    background-color: purple;
+    color : white; 
+}
+
+
+        footer{ 
+            color:aqua ;
+        }

@@ -1,0 +1,21 @@
+h1{ 
+    color : blue; 
+}
+
+p{ 
+    font-family:ponomar , Big Shoulders; 
+    font-size: 2.5em; 
+    font-style: normal;
+    font-weight: bold; 
+}
+
+/* to access the fonts from locally we need to download 
+then we have to link thoes by this way : 
+
+@font-face{
+src : url(/font/....);
+font-family : .....; 
+
+*/
+
+
