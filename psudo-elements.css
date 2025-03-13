@@ -1,0 +1,31 @@
+/* Psudo Elements 
+selector :: psudo-elements
+
+example : h2::first-line
+
+*/
+
+h1::first-letter{ 
+    font-size: 2em;
+    font-style : italic
+}
+
+
+p::first-line { 
+    background-color: yellow;
+}
+
+p::selection { 
+    color: rgb(169, 135, 202);
+    background-color: rgb(0, 0, 0);
+}
+
+
+content::before{ 
+    content:"∂"
+}
+
+
+#nunu_vobon li::marker { 
+content : "🧑"
+}

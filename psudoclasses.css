@@ -1,0 +1,61 @@
+/* /* a:link{ 
+    color: hsl(240, 94%, 64%)
+}
+
+a:hover{ 
+    color: rgb(65, 65, 103);
+    font-size: 4.1em; 
+
+
+}
+
+a:active{ 
+    color:yellowgreen; 
+    font-size: 7.1em ;
+}
+/* 
+a:visited{ 
+    color:red; 
+    font-size: 6.77em; 
+
+} */
+/*
+li:hover{ 
+ color: rgb(83, 222, 232);
+}
+
+h1:not(:hover){ 
+    color: rgb(255, 160, 37);
+}
+
+
+ */
+
+
+/** N-th child psudo class for lists **/
+
+
+/* li:nth-child(odd)
+{ 
+    color: hsl(251, 100%, 49%);
+}
+
+li:nth-child(3n){ 
+    color :chartreuse; 
+}
+ 
+
+  */
+
+
+#Greetings p{
+    color: lightblue;
+    padding: 10px;
+    display: none;
+}
+
+#Greetings:hover p{ 
+
+ display:block;
+
+}
