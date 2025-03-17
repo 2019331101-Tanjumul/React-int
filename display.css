@@ -3,11 +3,14 @@
     height: 100px;
     width: 100px;
     display: inline-block; 
+    transition-delay: 0.5s; 
 }
 
 span{ 
     background-color :aqua ; 
     height : 100px;  
     width : 100px; 
-    display: inline-block; 
+    display: inline-block ; 
+    transition-delay: 0.8s;
 }
+
