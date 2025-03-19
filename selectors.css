@@ -1,0 +1,51 @@
+/* *{ 
+    color:blue;
+} */
+
+
+
+
+header{ 
+    background-color: #f0ebeb;
+}
+
+section.my-articales{
+
+    background-color: #f2e9e9;
+
+}
+
+header p{ 
+    color : red; 
+}
+
+
+li a{ 
+    color : pink;
+}
+
+/* section.my-articales h2{ 
+    color: green ; 
+} */
+
+/* direct child combinator*/
+
+
+section.my-articales > h2 { 
+    color: green ; 
+}
+
+/*selector*/
+
+h2+p{ 
+    color: yellow;
+}
+
+
+section.my-articales h2+p{ 
+    color: red; 
+}
+
+ul+p{ 
+    color: violet; 
+}

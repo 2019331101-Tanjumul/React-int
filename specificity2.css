@@ -1,0 +1,19 @@
+
+/*How to calculate specificity */
+div#container ul.my-songs li{ 
+    color:brown; 
+    background-color: yellow;
+}
+/* 0 , 1 , 1 , 3 */
+
+/* inline-css > id > class > element selector */
+
+
+/* 0 , 1 , 1 , 3 */
+
+
+div#container ul.my-songs li.favourite { 
+
+    color: yellow; 
+    background-color: brown;
+}
