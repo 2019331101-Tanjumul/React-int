@@ -17,3 +17,18 @@ div#container ul.my-songs li.favourite {
     color: yellow; 
     background-color: brown;
 }
+
+/* calculating the specificity : 0 1 2 3 */
+
+
+
+/*hierarchy of specificity --> {inline > tag > class > element} 
+*/ 
+
+
+
+
+
+
+
+
