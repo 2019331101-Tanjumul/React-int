@@ -1,0 +1,22 @@
+h1{ 
+    border : 20px red  dotted; 
+    /* padding-left:20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 20px; */
+
+    /* padding:20px;  */
+
+ /* padding : 20px 40px;  */
+
+ /* padding : 20px 30px 50px 40px;  */
+padding: 10px ; 
+/* margin-left: 100px; */
+/* margin: 40px 100px */
+/* margin: 20px 40px 60px 200px;  */
+
+width: 200px ; 
+margin: 200px auto; 
+text-align: center;
+background: lightblue;
+}
