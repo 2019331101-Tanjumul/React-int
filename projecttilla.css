@@ -1,7 +1,5 @@
 body{ 
-
-    margin: 100px; 
-
+padding: 0px 50px;
 }
 
 nav{ 
@@ -16,7 +14,7 @@ background-color: #cecece;
 
 nav ul{ 
   
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-left: 0px;
     text-align: center;
 }
@@ -28,4 +26,18 @@ nav li{
    margin: 15px 20px;
    font-size: 20px;
    text-transform: uppercase;
+ 
+}
+
+section{ 
+    margin-top:50px;
+}
+
+h2{ 
+    border-bottom: 1px solid black; 
+}
+
+a{ 
+    text-decoration: none;
+    color:#444;
 }
