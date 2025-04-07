@@ -4,18 +4,28 @@ body{
 
 }
 
-
-li{ 
-
-    list-style-type: none;
-}
-
-.navbar{ 
+nav{ 
     
-    border: 2px solid black;
-    background-color: rgb(181, 181, 181);
+background-color: #cecece;
+    /* background-color: rgb(181, 181, 181);
     display: inline-block;
     text-align: center;
     width: 1680px;
-    text-decoration: underline;
+    text-decoration: underline; */
+}
+
+nav ul{ 
+  
+    border: 1px solid black;
+    padding-left: 0px;
+    text-align: center;
+}
+
+nav li{ 
+    list-style-type: none;
+   border-bottom: 2px solid black;
+   display: inline-block;
+   margin: 15px 20px;
+   font-size: 20px;
+   text-transform: uppercase;
 }
