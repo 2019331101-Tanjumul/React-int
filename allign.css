@@ -1,0 +1,42 @@
+
+body{ 
+     padding: 190px;
+}
+h1 {
+     background-color: aquamarine;
+     font-weight: normal;
+
+     text-align: left;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+     display: inline-block;
+     width: 200px;
+     padding: 50px;
+     margin: 0px 600px;
+     background-color: red;
+     color: black;
+     text-align: center;
+     font-family: fantasy, Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+     font-weight: 400;
+     font-feature-settings: 'Popppins', 'sans-serif';
+     font-style: italic;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+     font-weight: 400;
+     font-family: fantasy;
+}
+
+
+.foot h1 {
+
+     background-color: bisque;
+     text-align: right;
+
+}
