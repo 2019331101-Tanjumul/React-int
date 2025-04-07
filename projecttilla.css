@@ -1,0 +1,21 @@
+body{ 
+
+    margin: 100px; 
+
+}
+
+
+li{ 
+
+    list-style-type: none;
+}
+
+.navbar{ 
+    
+    border: 2px solid black;
+    background-color: rgb(181, 181, 181);
+    display: inline-block;
+    text-align: center;
+    width: 1680px;
+    text-decoration: underline;
+}

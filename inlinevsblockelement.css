@@ -5,10 +5,24 @@ body{
 
 h1 , h2{ 
     border : solid 2px black; 
-    width: 500px;
-    height: 100px;
+    /* width: 500px;
+    height: 100px; */
+    display: inline ;
+}
+
+h1{ 
+    /* margin: 100px; */
+    /* padding: 100px; 
+    text-align: center; */
+
+    /* display: inline; */
 }
 
 a{ 
-    border: 2px solid green;  
+    border: 2px solid rgb(238, 61, 17);  
+    /* margin: 30px; */
+    /* padding: 0px 50px ; */
+    display: block;
 }
+
+/* to convert the block level elements to inline we use display property declaring - inline like this display: inline; */
