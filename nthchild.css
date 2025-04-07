@@ -2,3 +2,17 @@ p:nth-child(2){
     color : blue; 
 }
 /* this takes all the 2nd childs or lines*/
+
+
+/*You want to color every child of the paragraph of the artical then */
+
+
+p:nth-of-type(2){ 
+
+    color : burlywood; 
+}
+
+/* p:nth-of-type( here you can type your desired sequence of num you want to color ){ 
+
+    color : burlywood; 
+} */
