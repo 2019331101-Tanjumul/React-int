@@ -1,0 +1,42 @@
+/* link , visited , hover and active */
+
+
+a { 
+    font-size: 200px; 
+    color: green; 
+}
+
+
+a:hover { 
+
+    color: red;
+}
+
+a:link{ 
+    color: blue; 
+
+}
+
+a:visited{ 
+    color : orange; 
+
+}
+
+a:active{ 
+    color: black; 
+}
+
+p{ 
+    font-size: large;
+}
+
+
+p:hover{ 
+    
+    color: green; 
+}
+
+p:active{ 
+
+    background-color: red;
+}
