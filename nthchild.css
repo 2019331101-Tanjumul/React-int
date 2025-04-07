@@ -1,0 +1,4 @@
+p:nth-child(2){ 
+    color : blue; 
+}
+/* this takes all the 2nd childs or lines*/
