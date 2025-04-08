@@ -1,4 +1,6 @@
 .box{ 
-    height: 100vh;
+    height: 100vmin;
+    /* vh , vw */
     background-color: blanchedalmond;
-}
+    
+} 
