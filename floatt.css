@@ -38,3 +38,9 @@
     clear:both; 
 
 }
+
+.fav-musicians::after{ 
+    content: "";
+    display: block;
+    clear: both; 
+}
