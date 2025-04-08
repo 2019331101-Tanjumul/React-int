@@ -1,0 +1,19 @@
+p::first-letter{ 
+    font-size: 32px;
+}
+
+/* p::first-line{ 
+    font-size: 10px;
+} */
+
+/*first-letter and first-line is used in block level elements only*/
+
+p::selection{ 
+    background: black;
+    color : white; 
+}
+
+h1::selection{ 
+    background-color: black;
+    color: white; 
+}
