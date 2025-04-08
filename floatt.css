@@ -6,17 +6,32 @@
     border: 10px solid green; 
 }
 .mozart{ 
-    width:45%; 
+    width:25%; 
     border : 4px solid red ; 
    background-color: lightblue;
    float : left; 
 }
 
 .beethoven{ 
-
-    width : 55%; 
-    float : right ; 
+    border: 4px solid blue; 
+    width : 25%; 
+    float : left ; 
     background-color: lightsalmon;
+}
+
+.bach{ 
+ float: left ; 
+ width: 25% ;
+ border: 4px solid yellow; 
+ background-color: beige;
+
+}
+
+.paganini{ 
+    float: left;
+    width: 25%;  
+   border: 4px solid magenta; 
+   background-color : rgb(198, 161, 161); 
 }
 
 .clearfix{ 
