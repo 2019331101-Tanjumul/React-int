@@ -1,0 +1,22 @@
+.cool::before{ 
+    display: block;
+    content: 'Hello-Tanjumul ';
+   color: green; 
+   border: 1px green dotted;
+   padding: 5px;
+   margin-bottom: 5px;
+
+
+}
+
+.cool::after{ 
+
+    content: " This is after";
+    color : red; 
+    font-size: 34px;
+ 
+}
+
+/*we can't use img , vid , input , br , ifills*/
+
+
