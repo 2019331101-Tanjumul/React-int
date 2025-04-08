@@ -1,0 +1,30 @@
+
+/* html{ 
+font-size : 10px;     
+} */
+ :root{ 
+    /* font-size : 10px;    */
+     font-size: 62.5%; 
+
+}
+.box1{
+    /* rem actually multiply the root element's pixples remember the default pixels are 16 pixels */
+    font-size: 2rem;
+    letter-spacing: 3px;
+  /* some devs uses 62.5%  which is also refers as  the 100% 
+  the math is if 
+  16 px is 100% then 
+  10 ----> 100/16*10 */
+}
+
+.txt-content{ 
+
+font-size: 3rem; 
+text-transform: uppercase;
+text-decoration: line-through 4px solid rgb(37, 37, 186);
+font-style: italic;
+
+border: 1rem solid red; 
+margin: 0.5rem ;
+padding: 2.5rem; 
+}
