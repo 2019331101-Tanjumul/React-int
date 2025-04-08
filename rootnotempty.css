@@ -1,0 +1,19 @@
+/* body :not(.fancy){ 
+    color: blue; 
+    background-color: #ddd;
+} */
+
+/* div{ 
+    background-color: black;
+    border:2px solid red; 
+    height: 200px;
+    width: 100px;
+} */
+
+
+:root{ 
+
+background-color: #333;
+color: white; 
+
+}
