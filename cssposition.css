@@ -7,7 +7,7 @@ body{
    border: 8px solid green ; 
    margin-bottom: 50px;
    margin-top: 50px; 
-
+   position: relative;
 }
 
 .container h1{ 
@@ -16,6 +16,16 @@ body{
   /* position : relative;  */
   /* top : 150px; 
   z-index: -1; */
+  /* position: absolute;  it will be out of the document view */
+  
+   position: absolute ; 
+   top : 50%; 
+   /* right: 50%;  */
+   left: 50%; 
+   /* this is the most important part to remember */
+
+   transform: translate(-50% , -50%);
+    
 
 }
 
