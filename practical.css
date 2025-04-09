@@ -1,0 +1,29 @@
+body{ 
+    box-sizing: border-box;
+}
+
+.box-wrapper{ 
+    border: 2px solid black ; 
+}
+
+.box1{ 
+
+    width: 48%; 
+    float: left; 
+    background : #ccc; 
+    padding: 10px; 
+}
+
+.box2{ 
+
+    width: 48%; 
+    float: right; 
+    background : #ccc; 
+    padding: 10px; 
+}
+
+.box-wrapper::after{ 
+    content: ''; 
+    display : block; 
+    clear : both ; 
+}
