@@ -5,16 +5,31 @@ body{
 
 .box-wrapper{ 
 
-    border: 12px solid black; 
-   display: flex;
-   /* flex-wrap: wrap-reverse; */
+    border: 10px solid black; 
+    display: flex;
+    /* height: 400px; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /*flex-direction:row*/
 
+
+
+
+    /* flex-wrap : wrap;  */
+
+    
+    /* flex-wrap: wrap-reverse; */  
+
+    justify-content: flex-end;
+     
 }
 
 .box{
-width: 500px;
+width: 300px;
  border: 1px solid #666; 
 
+ 
+ /* height: 300px; */
 }
 
 .box-1{
