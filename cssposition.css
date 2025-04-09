@@ -7,7 +7,7 @@ body {
     border: 8px solid green;
     margin-bottom: 50px;
     margin-top: 50px;
-    position: relative;
+    /* position: relative; */
 }
 
 .container h1 {
