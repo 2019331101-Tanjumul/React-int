@@ -1,22 +1,44 @@
 body{ 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 
-
 }
 
 .box-wrapper{ 
 
-    border: 2px solid black; 
+    border: 12px solid black; 
+   display: flex;
+   /* flex-wrap: wrap-reverse; */
 
 }
 
 .box{
+width: 500px;
+ border: 1px solid #666; 
 
- border: 2px solid #666; 
 }
 
 .box-1{
 
     background: lightblue;
+
+}
+.box-2{
+
+    background: lightsalmon;
+
+}
+.box-3{
+
+    background: rgb(192, 248, 192);
+
+}
+.box-4{
+
+    background: lightcyan;
+
+}
+.box-5{
+
+    background: lightyellow;
 
 }
