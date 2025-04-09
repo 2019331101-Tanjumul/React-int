@@ -1,4 +1,4 @@
-body{ 
+*{ 
     box-sizing: border-box;
 }
 
@@ -26,4 +26,16 @@ body{
     content: ''; 
     display : block; 
     clear : both ; 
+}
+
+
+@media (max-width: 1024px){
+
+
+.box1, .box2{ 
+
+  float: none;    
+  width: 100%; 
+  margin-bottom: 1rem; 
+}
 }
