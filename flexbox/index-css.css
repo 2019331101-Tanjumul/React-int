@@ -1,0 +1,22 @@
+body{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+
+}
+
+.box-wrapper{ 
+
+    border: 2px solid black; 
+
+}
+
+.box{
+
+ border: 2px solid #666; 
+}
+
+.box-1{
+
+    background: lightblue;
+
+}
