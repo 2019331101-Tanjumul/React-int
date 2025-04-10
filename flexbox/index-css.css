@@ -4,22 +4,24 @@ body{
 }
 
 .box-wrapper{ 
-   
+     
+    height: 400px;
     border: 10px solid black; 
-    height: 1200px;
+    /* height: 300px; */
     display: flex;
-    /* height: 400px; */
-    flex-direction: column;
+        
+    /* flex-direction: column; */
     /* flex-direction: row-reverse; */
-    /*flex-direction:row*/
+    /*flex-direction:row*/ 
+    /* box-sizing: border-box;
+    justify-content: space-evenly; */
+   
 
 
 
-    /* flex-wrap : wrap;  */
-
-    
-    /* flex-wrap: wrap-reverse; */  
-    justify-content: flex-start;
+    flex-wrap : wrap-reverse; 
+    /* flex-wrap: wrap-reverse;   */
+    /* justify-content: flex-start; */
     /* justify-content: flex-end; */
      
     /* justify-content: center; */
@@ -29,8 +31,9 @@ body{
 }
 
 .box{
- width: 300px;
- border: 1px solid #666; 
+
+    width: 400px;
+    border: 1px solid #666; 
  /* margin-right: 5px;
  padding: 15px; */
  
