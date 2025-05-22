@@ -1,9 +1,9 @@
 import User from './Users';
 
 const App = () => { 
-  return <div className='text-center bg-amber-50'>
+  return <div className= ''>
     
-    <h1> Welcome to the world of Tnju Css</h1>
+    <h1> Welcome to the world of Tanju Css</h1>
     
     <User />
 
