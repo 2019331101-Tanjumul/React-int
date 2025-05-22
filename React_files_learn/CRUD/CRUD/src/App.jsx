@@ -1,12 +1,10 @@
-import User from './Users';
+import User from './Users/index.jsx';
 
 const App = () => { 
-  return <div className= ''>
+  return <div className= 'text-center font-bold text-2xl text-cyan-300'>
     
-    <h1> Welcome to the world of Tanju Css</h1>
-    
+    <h1> Welcome to the world Css</h1>
     <User />
-
   </div>
 }
 export default App; 
