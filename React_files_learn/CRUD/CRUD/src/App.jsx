@@ -1,9 +1,9 @@
 import Users from './Users/index.jsx';
 
 const App = () => { 
-  return <div className= 'text-center font-bold text-3xl text-Black-300'>
+  return <div className='my-45 flex flex-col items-center justify-center'>
     
-    <h1> Welcome to the world Css</h1>
+    <h1> Welcome to the world ! </h1>
     <Users />
   </div>
 }

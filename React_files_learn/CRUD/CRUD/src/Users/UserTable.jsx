@@ -1,5 +1,5 @@
 const UserTable = ()=> { 
-    return <div className="mt-5 w-[40%]">
+    return <div className="mt-5 w-[20%]">
     User UserTable
     </div>
 }; 

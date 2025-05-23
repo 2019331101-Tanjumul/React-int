@@ -4,7 +4,7 @@ import UserTable from "./UserTable.jsx";
 const Users = () => {
     return (
       
-<div className="border flex flex-col w-full items-center justify-center ">
+<div className="flex flex-col w-full items-center justify-center ">
     <UserForms/>
     <UserTable/>
 </div>
