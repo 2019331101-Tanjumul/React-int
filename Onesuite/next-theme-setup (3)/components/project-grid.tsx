@@ -62,9 +62,9 @@ export function ProjectGrid() {
     <div className="p-6">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-lg font-semibold text-gray-900">Projects</h2>
-        <Button color="primary" startContent={<Plus className="w-4 h-4" />}>
+        {/* <Button color="primary" startContent={<Plus className="w-4 h-4" />}>
           Create Project
-        </Button>
+        </Button> */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-6">
         {projects.map((project, index) => (
