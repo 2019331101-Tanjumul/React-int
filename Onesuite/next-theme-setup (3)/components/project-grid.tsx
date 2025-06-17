@@ -72,7 +72,7 @@ export function ProjectGrid() {
         ))}
       </div>
 
-      <div className="flex items-center justify-center gap-2">
+      <div className="flex items-center justify-start gap-2 w-full">
         <Button isIconOnly size="sm" variant="light" isDisabled>
           <ChevronLeft className="w-4 h-4" />
         </Button>
