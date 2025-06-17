@@ -11,6 +11,8 @@ import {
   MessageCircle,
   Settings,
   Grid3X3,
+  Store,
+  ChevronDown,
 } from "lucide-react"
 import { useState } from "react"
 
@@ -31,9 +33,12 @@ export function Sidebar() {
   return (
     <div className="sidebar-fixed">
       <div className="p-4 border-b border-gray-200">
-        <div className="flex items-center gap-2">
-          <Grid3X3 className="w-6 h-6 text-blue-600" />
-          <span className="font-semibold text-lg">TelnemMI</span>
+        <div className="flex items-center gap-2 min-w-[180px]">
+          <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100">
+            <Store className="w-5 h-5 text-gray-500" />
+          </span>
+          <span className="font-medium text-gray-800 text-base">TelnemMl</span>
+          <ChevronDown className="w-4 h-4 text-gray-400 ml-1" />
         </div>
       </div>
 
